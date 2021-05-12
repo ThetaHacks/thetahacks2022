@@ -1,30 +1,23 @@
 <script lang="ts">
-	export let name: string;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <h1 class="named"><span class="blue">Theta</span><span class="pink">Hacks</span></h1>
 </main>
 
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
+<style lang="sass">
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap')
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
+  .named
+    font-family: 'Raleway', sans-serif
+    text-align: center
 
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+    font-weight:  9000
+    font-size: 11em
+
+    .blue
+      color: #B8D3D1
+
+    .pink
+      color: #CE7B91
 </style>

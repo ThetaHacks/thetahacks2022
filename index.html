@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThetaHacks II</title>
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThetaHacks II</title>
+    <!-- CSS -->
+    <link href="./static/css/main.css" rel="stylesheet">
+    <!-- BoxIcons Library -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <img class="logoImg" src="static/img/logo.png" />
+                <div class="logo_name">ThetaHacks II</div>
+            </div>
+            <i class='bx bx-menu' id="navBtn"></i>
+        </div>
+        <ul class="nav_list">
+            <!-- Signup -->
+            <li>
+                <a href="https://thetahacks.tech/signup">
+                    <i class='bx bx-calendar-event'></i>
+                    <span class="links_name">Signup</span>
+                </a>
+                <span class="tooltip">Signup</span>
+            </li>
+            <!-- Discord SideBar -->
+            <li>
+                <a href="https://thetahacks.tech/discord">
+                    <i class='bx bxl-discord'></i>
+                    <span class="links_name">Discord</span>
+                </a>
+                <span class="tooltip">Discord</span>
+            </li>
+            <!-- Newsletter -->
+            <li>
+                <a href="https://thetahacks.tech/newsletter">
+                    <i class='bx bxs-news'></i>
+                    <span class="links_name">Newsletter</span>
+                </a>
+                <span class="tooltip">Mailing List</span>
+            </li>
+        </ul>
+    </div>
+    <div class="header"></div>
+    <script src="./static/js/script.js"></script>
 </body>
+
 </html>
+<!-- -->

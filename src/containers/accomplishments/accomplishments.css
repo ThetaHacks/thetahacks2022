@@ -1,0 +1,12 @@
+.stats_img {
+    width: 100%;
+}
+
+.theta_accomplishments-heading h1 {
+    font-family: var(--font-family);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}

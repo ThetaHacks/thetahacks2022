@@ -1,0 +1,30 @@
+.schedule_card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.theta_schedule-header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    color: #fff
+}
+
+@media screen and (max-width: 550px) {
+    .schedule_card-container {
+        flex-direction: column;
+    }
+
+    .MuiPaper-root {
+        width: 100% !important;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .theta_schedule {
+        margin: 2rem
+    }
+}

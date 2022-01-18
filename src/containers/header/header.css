@@ -1,0 +1,294 @@
+.theta_header {
+    display: flex;
+    flex-direction: row;
+}
+
+.theta_header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.theta_header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+}
+
+.theta_header-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+
+.theta_header-content_input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#discord {
+    background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+    background-size: 800% 400%;
+    font-family: var(--font-family);
+    padding: 1em 1em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+    animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+    text-decoration: none;
+}
+
+#discord:hover {
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+#discord:active {
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+#signup {
+    background: linear-gradient(to right,
+            #6253e1,
+            #852d91,
+            #a3a1ff,
+            #f24645);
+    background-size: 800% 400%;
+    font-family: var(--font-family);
+    padding: 1em 1em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+    animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#signup:hover {
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+#signup:active {
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.subscribe-button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.subscribe-button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.subscribe-button:focus {
+    outline: none;
+}
+
+.subscribe-button {
+    background-image: linear-gradient(to right,
+            #667eea,
+            #764ba2,
+            #6b8dd6,
+            #8e37d7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+.email-form {
+    display: inline-flex;
+    margin-left: 20px;
+    font-family: var(--font-family);
+}
+
+.subscribe-button {
+    height: 40px;
+    display: inline-block;
+    padding: 15px 15px 34px;
+    background-color: grey;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: var(--font-family);
+}
+
+.subscribe-input {
+    display: inline-block;
+    width: 150px;
+    padding: 9px 12px;
+    vertical-align: middle;
+    color: #fff;
+    margin: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    font-size: 15px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+}
+
+.subscribe-input:focus {
+    outline: none;
+}
+
+.theta_header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theta_header-image img {
+    width: 30%;
+}
+
+@media screen and (max-width: 1050px) {
+    .theta_header {
+        flex-direction: column;
+    }
+
+    .theta_header-content {
+        margin: 0 0 3rem;
+    }
+
+    .theta_header-image img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .theta_header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .theta_header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .theta_header-content_input input,
+    .theta_header-content_input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .theta_header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .theta_header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .theta_header-content_input input,
+    .theta_header-content_input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .theta_header-content_input {
+        display: flow-root;
+    }
+
+    .email-form {
+        padding-top: 30px;
+        margin-left: 0;
+    }
+
+    .subscribe-input {
+        width: 100%;
+    }
+
+    #signup {
+        margin-right: 80px;
+    }
+}

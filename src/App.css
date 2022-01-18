@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-    background: var(--color-bg);
+  background: var(--color-bg);
 }
 
 a {
-    color: unset;
+  color: unset;
 }
 
 a,
@@ -19,85 +21,85 @@ a:visited,
 a:focus,
 a:hover,
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.gradient_bg {
-    /* ff 3.6+ */
-    background: -moz-radial-gradient(circle at 3% 25%, rgba(137, 141, 196, 1) 0%, rgba(39, 40, 56, 1) 100%);
-
-    /* safari 5.1+,chrome 10+ */
-    background: -webkit-radial-gradient(circle at 3% 25%, rgba(137, 141, 196, 1) 0%, rgba(39, 40, 56, 1) 100%);
-
-    /* opera 11.10+ */
-    background: -o-radial-gradient(circle at 3% 25%, rgba(137, 141, 196, 1) 0%, rgba(39, 40, 56, 1) 100%);
-
-    /* ie 10+ */
-    background: -ms-radial-gradient(circle at 3% 25%, rgba(137, 141, 196, 1) 0%, rgba(39, 40, 56, 1) 100%);
-
-    /* global 92%+ browsers support */
-    background: radial-gradient(circle at 3% 25%, rgba(137, 141, 196, 1) 0%, rgba(39, 40, 56, 1) 100%);
+.app_bg {
+  /* ff 3.6+ */
+  background-color: #272838;
 }
 
-.gradient_text {
-    background: var(--gradient--text);
-    -webkit-background-clip: text;
+.theta_header-text {
+  color: white;
+  font-weight: 800;
+}
+
+.theta_header-desc {
+    color: var(--color-subtext);
     background-clip: text;
+    font-weight: 500;
 }
+
+.theta_header-text-span {
+    color: var(--color-subtext);
+}
+
 
 .section_padding {
-    padding: 1rem 6rem;
+  padding: 1rem 6rem;
+  margin-top: 60px;
 }
 
 .section_margin {
-    margin: 4rem 6rem;
+  margin: 4rem 6rem;
 }
 
 .scale-up-center {
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @-webkit-keyframes scale-up-center {
-    0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
 
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 @keyframes scale-up-center {
-    0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-    }
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
 
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .section_padding {
-        padding: 4rem
-    }
+  .section_padding {
+    padding: 4rem;
+  }
 
-    .section_margin {
-        margin: 4rem
-    }
+  .section_margin {
+    margin: 4rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .section_padding {
-        padding: 4rem 2rem;
-    }
+  .section_padding {
+    padding: 4rem 2rem;
+  }
 
-    .section_margin {
-        margin: 4rem 2rem;
-    }
+  .section_margin {
+    margin: 4rem 2rem;
+  }
 }

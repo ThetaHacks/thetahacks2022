@@ -18,8 +18,7 @@
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 70px;
-    line-height: 50px;
-    letter-spacing: -0.04em;
+    line-height: 70px;
     margin-bottom: 2%;
 }
 
@@ -43,7 +42,7 @@
 }
 
 #discord {
-    background: linear-gradient(-45deg,  #6fdbdf, #47b7e4);
+    background: linear-gradient(-45deg, #6fdbdf, #47b7e4);
     background-size: 800% 400%;
     font-family: var(--font-family);
     padding: 1em 1em;

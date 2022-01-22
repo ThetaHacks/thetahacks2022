@@ -1,0 +1,47 @@
+#prize {
+    margin-top: 100px;
+}
+
+.theta_prize-heading {
+    justify-content: left;
+    font-family: var(--font-family);
+    color: #fff;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.prizes_list {
+    list-style-type: circle;
+    list-style-position: inside;
+    color: #fff;
+    font-size: 1em;
+    padding-top: 30px;
+    line-height: 30px;
+    font-family: var(--font-family);
+}
+
+.prizes_list ul {
+    list-style: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.prizes_list ul>li:before {
+    margin-left: 100px;
+    content: '•';
+}
+
+@media screen and (max-width: 767px) {
+    .prizes_list ul {
+        line-height: 25px;
+        font-size: 11px;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .prizes_list ul>li:before {
+        margin-left: 00px;
+        content: '•';
+    }
+}

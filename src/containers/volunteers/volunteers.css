@@ -1,0 +1,24 @@
+#volunteers {
+    margin-top: 100px;
+}
+
+.theta_volunteers-heading {
+    justify-content: center;
+    font-family: var(--font-family);
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.theta_volunteers-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 50px
+}
+
+.theta_volunteers-imgs>* {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}

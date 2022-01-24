@@ -1,0 +1,22 @@
+figure.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-family: var(--font-family);
+}

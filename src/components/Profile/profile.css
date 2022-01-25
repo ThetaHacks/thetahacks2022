@@ -7,7 +7,7 @@ figure.item {
     width: 120px;
 }
 
-img {
+.profileImg {
     width: 100px;
     border-radius: 50%;
 }

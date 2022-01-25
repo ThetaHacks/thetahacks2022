@@ -1,0 +1,13 @@
+.faq-header {
+    margin-top: 100px;
+    justify-content: center;
+    font-family: var(--font-family);
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.accordion-section {
+    margin-left: 100px;
+    margin-right: 100px;
+}

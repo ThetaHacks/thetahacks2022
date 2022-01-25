@@ -2,7 +2,6 @@
   "name": "thetahacks2",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://kaidevrim.github.io/react-gh-pages",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",

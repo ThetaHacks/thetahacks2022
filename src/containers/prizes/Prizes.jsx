@@ -2,7 +2,7 @@ import React from "react";
 import "./prizes.css";
 
 export const Prizes = () => (
-  <div id="prize">
+  <div id="prizes">
     <div className="theta_prize-heading">
       <h1>Prizes</h1>
     </div>

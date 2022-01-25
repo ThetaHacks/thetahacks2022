@@ -26,7 +26,6 @@ const App = () => (
       <Faq />
       <Sponsors />
       <Team />
-      <Footer />
     </div>
   </div>
 );

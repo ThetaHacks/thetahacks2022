@@ -7,16 +7,12 @@ figure.item {
     width: 120px;
 }
 
-.profileImg {
-    width: 100px;
-    border-radius: 50%;
-}
-
 .caption {
     /* Make the caption a block so it occupies its own line. */
-    padding-top: 10px;
     display: block;
     text-align: center;
     color: #fff;
     font-family: var(--font-family);
+    padding-left: 30%;
+    padding-bottom: 50px;
 }

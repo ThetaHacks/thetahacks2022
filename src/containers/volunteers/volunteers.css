@@ -15,10 +15,11 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding-right: 50px
+    padding-right: 50px;
 }
 
-.theta_volunteers-imgs>* {
-    padding-left: 50px;
-    padding-bottom: 50px;
+.theta_volunteers-imgs>figure>a>img {
+    margin-left: 50px;
+    width: 100px;
+    border-radius: 50%;
 }

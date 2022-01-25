@@ -1,0 +1,24 @@
+.theta_sponsor-imgs>figure>a>img {
+    margin-left: 20px;
+    width: 200px;
+}
+
+#sponsors {
+    margin-top: 100px;
+}
+
+.theta_sponsor-heading {
+    justify-content: center;
+    font-family: var(--font-family);
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.theta_sponsor-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}

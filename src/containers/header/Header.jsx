@@ -1,11 +1,13 @@
 import React from "react";
 import "./header.css";
-import theta_logo from "../../assets/(NO BUFFER) theta.png";
+import theta_logo from "../../assets/logos/(NO BUFFER) theta.png";
 export const Header = () => {
   return (
     <div className="theta_header section_padding" id="home">
       <div className="theta_header-content">
-        <h1 className="theta_header-text">ThetaHacks II <span className="theta_header-text-span">is here.</span></h1>
+        <h1 className="theta_header-text">
+          ThetaHacks II <span className="theta_header-text-span">is here.</span>
+        </h1>
         <p className="theta_header-desc">
           36 hours. $20k in prizes. What will you build?
         </p>

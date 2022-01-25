@@ -1,15 +1,24 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/ThetaHacks.svg";
+import logo from "../../assets/logos/ThetaHacks.svg";
 import "./navbar.css";
 
 const Menu = () => (
   <>
     <p>
-      <a href="#about">About</a>
+      <a href="#home">Home</a>
+    </p>
+    <p>
+      <a href="#accomplishments">Accomplishments</a>
     </p>
     <p>
       <a href="#schedule">Schedule</a>
+    </p>
+    <p>
+      <a href="#merch">Merch</a>
+    </p>
+    <p>
+      <a href="#prizes">Prizes</a>
     </p>
     <p>
       <a href="#volunteers">Volunteers</a>

@@ -1,6 +1,5 @@
 export { default as Accomplishments } from "./accomplishments/Accomplishments";
 export { default as Faq } from "./faq/Faq";
-export { default as Footer } from "./footer/Footer";
 export { default as Header } from "./header/Header";
 export { default as Merch } from "./merch/Merch";
 export { default as Prizes } from "./prizes/Prizes";

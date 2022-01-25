@@ -1,0 +1,43 @@
+.theta_merch-heading {
+    justify-content: center;
+    font-family: var(--font-family);
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.merch_list {
+    list-style-type: circle;
+    list-style-position: inside;
+    color: #fff;
+    font-size: 1em;
+    padding-top: 30px;
+    line-height: 30px;
+    font-family: var(--font-family);
+}
+
+.merch_list ul {
+    list-style: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    margin-right: 20px;
+}
+
+.merch_list ul>li:before {
+    margin-left: 100px;
+    content: '•';
+}
+
+@media screen and (max-width: 767px) {
+    .merch_list ul {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        line-height: 25px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,10 @@
+export { default as v1 } from "./DevrinCommCute.jpg";
+export { default as v2 } from "./DevrinCommCute.jpg";
+export { default as v3 } from "./DevrinCommCute.jpg";
+export { default as v4 } from "./DevrinCommCute.jpg";
+export { default as v5 } from "./DevrinCommCute.jpg";
+export { default as v6 } from "./DevrinCommCute.jpg";
+export { default as v7 } from "./DevrinCommCute.jpg";
+export { default as v8 } from "./DevrinCommCute.jpg";
+export { default as v9 } from "./DevrinCommCute.jpg";
+export { default as v10 } from "./DevrinCommCute.jpg";

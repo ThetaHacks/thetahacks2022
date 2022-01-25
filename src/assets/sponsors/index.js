@@ -1,0 +1,10 @@
+export { default as s1 } from "./powered-by-hack-club.png";
+export { default as s2 } from "./powered-by-hack-club.png";
+export { default as s3 } from "./powered-by-hack-club.png";
+export { default as s4 } from "./powered-by-hack-club.png";
+export { default as s5 } from "./powered-by-hack-club.png";
+export { default as s6 } from "./powered-by-hack-club.png";
+export { default as s7 } from "./powered-by-hack-club.png";
+export { default as s8 } from "./powered-by-hack-club.png";
+export { default as s9 } from "./powered-by-hack-club.png";
+export { default as s10 } from "./powered-by-hack-club.png";

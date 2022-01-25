@@ -1,0 +1,10 @@
+export { default as t1 } from "./test-profile.gif";
+export { default as t2 } from "./test-profile.gif";
+export { default as t3 } from "./test-profile.gif";
+export { default as t4 } from "./test-profile.gif";
+export { default as t5 } from "./test-profile.gif";
+export { default as t6 } from "./test-profile.gif";
+export { default as t7 } from "./test-profile.gif";
+export { default as t8 } from "./test-profile.gif";
+export { default as t9 } from "./test-profile.gif";
+export { default as t10 } from "./test-profile.gif";
